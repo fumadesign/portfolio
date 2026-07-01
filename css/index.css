@@ -1096,6 +1096,7 @@ body{
 .WORK_FLOW__inner > .section-head{
   width: 100%;
   margin-bottom: 80px;
+  line-height: 2;
 }
 
 .work_flow_detail_inner p {
