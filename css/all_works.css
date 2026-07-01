@@ -452,10 +452,11 @@ margin-bottom: 16px;
 }
 
 .head-title .ja {
-        font-size: clamp(20px, 6vw, 24px);
+font-size: clamp(20px, 6vw, 24px);
 font-weight: 600;
  /* white-space: nowrap; */
     padding-right: 10%;
+    line-height: 1.5;
 }
 
 /* フッターセクション */
