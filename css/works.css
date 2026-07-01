@@ -259,7 +259,7 @@ img {
     position: absolute;
     top: -30px;
     left: 0px;
-    z-index: 99999;
+    z-index: 99998;
 }
 
 .header-nav-sp li{
