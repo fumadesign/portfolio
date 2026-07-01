@@ -523,7 +523,8 @@ margin-bottom: 16px;
 .head-title .ja {
     font-size: clamp(20px, 6vw, 24px);
     font-weight: 600;
-    white-space: nowrap;
+    /* white-space: nowrap; */
+    padding-right: 10%;
 }
 
 /* SP_リンクボタン */
@@ -682,25 +683,5 @@ margin-bottom: 16px;
     padding-left:10%;
     padding-right: 10%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
