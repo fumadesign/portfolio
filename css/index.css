@@ -1040,7 +1040,7 @@ body{
   margin: 48px auto 0px;
 }
 #ABOUT_ME h3{
-  order: 1;
+  padding-left: 10%;
 }
 
 
