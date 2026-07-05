@@ -593,9 +593,37 @@ img {
 }
 
 /* WORK FLOWセクション */
+#work_flow {
+  position: relative;
+  overflow: hidden;
+  /* max-width: 1440px; 
+  margin: 0 auto;     */
+  width: 100%;
+}
+
+#work_flow::before{
+  position: absolute;
+  content:"";
+  background-color: #bbdafd;
+  /* width: calc((100% - 1200px) / 2);
+  right: 0; */
+  width: 50vw;
+  height: 100%;
+  top: 0;
+  right: 0; /* 親要素（1440px）の中央からスタート */
+  z-index: 1;
+}
+/* 1440pxの枠をここで作り、画面中央に固定する */
+.WORK_FLOW__inner_wrapper {
+  max-width: 1440px;
+  margin: 0 auto;    /* 1440pxを超えたら中央にカチッと固定 */
+  position: relative;
+  z-index: 2;        /* コンテンツを背景の上に引き上げる */
+}
+
 .WORK_FLOW__inner {
   max-width: 1200px;
-  margin-left: auto;
+  margin-left: auto; /* 右寄せにして右側の青背景と連動させる */
   background: #bbdafd;
   border-radius: 160px 0 0 0;
   padding: 145px 8%;
